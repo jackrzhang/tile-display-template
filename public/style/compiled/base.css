@@ -18,4 +18,12 @@ body {
   font-family: 'Poppins', Helvetica, sans-serif;
   background-color: #f4f4f4; }
 
+footer {
+  border-top: 1px solid #dadcdd;
+  padding: 20px 0 5px 0;
+  color: #888;
+  background-color: #fff;
+  font-size: 12px;
+  text-align: center; }
+
 /*# sourceMappingURL=base.css.map */
