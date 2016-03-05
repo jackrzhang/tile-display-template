@@ -8,7 +8,7 @@ PROBLEM DEFINITION:
     a) Online Auction - each tile represents a user's current bid on an item
     b) Online Retail Store - each tile represents a featured item
     c) Online Distributor Store - each tile represents a product
-    c) Game Progress - each tile represents a user's current progress on a game stage
+    c) Game Progress - each tile represents a user's current progress on a game level
     d) Online Portfolio - tile information can be adjusted according to portfolio types
 
 TILE DESIGN:
