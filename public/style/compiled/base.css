@@ -1,3 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+.custom-header {
+  display: block;
+  padding: 5px 0;
+  width: 100%;
+  height: 35px;
+  background: #17202a;
+  box-shadow: inset 0 -10px 10px -10px rgba(0, 0, 0, 0.8);
+  position: fixed;
+  z-index: 105;
+  top: 0; }
 
+h1.page-title {
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #dadcdd; }
+
+body {
+  font-family: 'Poppins', sans-serif; }
 
 /*# sourceMappingURL=base.css.map */

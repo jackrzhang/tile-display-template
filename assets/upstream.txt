@@ -20,6 +20,10 @@ TILE DESIGN:
     e) Prominent CTA (Call To Action) Button
     f) Bottom section for displaying any additional text information
 
+PAGE LAYOUT:
+1) Responsive navbar at top
+
+
 IMPLEMENTATION DETAILS:
 1) Build and integrate tiles into Bootstrap
     a) Tiles should be within the same bootstrap container as a side-bar menu

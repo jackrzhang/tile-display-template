@@ -22,21 +22,13 @@
                 left: 0px;
                 border-bottom-right-radius: 3px;
                 padding: 5px 10px;
-                font-family: 'gotham bold';
+                font-weight: 'bold';
                 font-size: 12px;
                 color: #fff;          
             }
 
             span.item-status-label-blue {
                 background-color: rgba(48, 143, 232, 0.7);
-            }
-
-            span.item-status-label-green {
-                background-color: rgba(50, 205, 50, 0.7);
-            }
-
-            span.item-status-label-red {
-                background-color: rgba(255,76,76, 0.7);
             }
 
             div.item-top-info {
@@ -68,8 +60,7 @@
                         float: right;
                         margin: 0;
                         font-size: 15px;
-                        font-family: 'gotham bold';
-                        font-weight: normal;
+                        font-weight: bold;
                     }
                 }
             }

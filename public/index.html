@@ -31,45 +31,91 @@
 
 <body>
 
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Brand</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">Navbar1</a>
+                    </li>
+                    <li>
+                        <a href="#">Navbar2</a>
+                    </li>
+                    <li>
+                        <a href="#">Navbar3</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content: Menu & Tiles -->
     <div class="container my-items-container">
 
-        <div class="item-tile-container col-xs-6 col-md-4">
-            <div class="thumbnail item-tile">
-                <span class="item-status-label-blue">STATUS HERE</span>
-                <img src="#" alt="tile image">
-                <div class="row item-top-info">
-                    <div class="col-xs-9 col-sm-8 item-title-container">
-                        <h4 class="item-title"><a href="#">Tile Title Here</a></h4>
+        <div class="col-sm-3">
+            <div class="list-group">
+                <a href="#" class="list-group-item">Menu Category 1</a>
+                <a href="#" class="list-group-item">Menu Category 2</a>
+                <a href="#" class="list-group-item">Menu Category 3</a>
+                <a href="#" class="list-group-item">Menu Category 4</a>
+                <a href="#" class="list-group-item">Menu Category 5</a>
+            </div>
+        </div>
+
+        <div class="col-sm-9">
+
+            <h1 class="page-title">Tile Display Title</h1>
+
+            <div class="item-tile-container col-xs-6 col-md-4">
+                <div class="thumbnail item-tile">
+                    <span class="item-status-label-blue">TILE STATUS</span>
+                    <img src="images/item-image.png" alt="tile image">
+                    <div class="row item-top-info">
+                        <div class="col-xs-9 col-sm-8 item-title-container">
+                            <h4 class="item-title"><a href="#">Tile Title</a></h4>
+                        </div>
+                        <div class="col-xs-3 col-sm-4 leading-bid-container">
+                            <p class="leading-bid-label">Primary Info</p>
+                            <p class="leading-bid-amount">Value</p>
+                        </div>                
                     </div>
-                    <div class="col-xs-3 col-sm-4 leading-bid-container">
-                        <p class="leading-bid-label">Current Bid</p>
-                        <p class="leading-bid-amount">$99.00</p>
-                    </div>                
-                </div>
-                <div class="item-call-to-action">
-                    <button class="btn bg-blue">Call To Action</button>
-                </div>
-                <div class="item-bottom-info">
-                    <table>
-                        <tr>
-                            <td><p class="info-key">My Bid:</p></td>
-                            <td><b class="info-value">$87.00</b></td>
-                        </tr>
-                        <tr>
-                            <td><p class="info-key">Time Left:</p></td>
-                            <td><b class="info-value">12d 14h 46m</b></td>
-                        </tr>
-                        <tr>
-                            <td><p class="info-key">Auction:</p></td>
-                            <td><b class="info-value"><a href="#">Auction Name</b></td>
-                        </tr>
-                        <tr>
-                            <td><p class="info-key">Organization:</p></td>
-                            <td><b class="info-value"><a href="#">Organization Name</a></b></td>
-                        </tr>                 
-                    </table>
-                </div>
-            </div>  
+                    <div class="item-call-to-action">
+                        <button class="btn bg-blue">CALL TO ACTION</button>
+                    </div>
+                    <div class="item-bottom-info">
+                        <table>
+                            <tr>
+                                <td><p class="info-key">Number Info:</p></td>
+                                <td><b class="info-value">Numeric Value</b></td>
+                            </tr>
+                            <tr>
+                                <td><p class="info-key">Time Info:</p></td>
+                                <td><b class="info-value">Time Value</b></td>
+                            </tr>
+                            <tr>
+                                <td><p class="info-key">Extra Info 1:</p></td>
+                                <td><b class="info-value"><a href="#">Extra Value 1</b></td>
+                            </tr>
+                            <tr>
+                                <td><p class="info-key">Extra Info 2:</p></td>
+                                <td><b class="info-value"><a href="#">Extra Value 2</a></b></td>
+                            </tr>                 
+                        </table>
+                    </div>
+                </div>  
+            </div>
+
         </div>
 
     </div>
