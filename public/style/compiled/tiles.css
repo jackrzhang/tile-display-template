@@ -1,5 +1,6 @@
 .container.tiles-container {
   padding: 0;
+  margin-top: 90px;
   /* Resize leading bid label for extremely small devices */
   /* extra small (xs) devices that can fit two tiles */
   /* small (sm) devices */
