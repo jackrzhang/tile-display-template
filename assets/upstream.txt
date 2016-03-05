@@ -23,6 +23,6 @@ TILE DESIGN:
 IMPLEMENTATION DETAILS:
 1) Build and integrate tiles into Bootstrap
     a) Tiles should be within the same bootstrap container as a side-bar menu
-2) CSS media queries
-3) SCSS
+2) Utilize CSS media queries
+3) Utilize SASS
 
