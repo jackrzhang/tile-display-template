@@ -1,0 +1,28 @@
+Project: Tile Display Template
+Date: 160222
+Author: jackrzhang
+
+PROBLEM DEFINITION:
+1) Create an intuitive and responsive tile design and layout.
+2) Potential uses for the tiles/this template include:
+    a) Online Store - each tile represents a featured item
+    b) Online Store - each tile represents a shopping cart item
+    c) Online Auction - each tile represents a user's current bid on an item
+    d) Game Progress - each tile represents a user's current progress on a game stage
+    e) Online Portfolio - tile information can be adjusted according to portfolio types
+
+TILE DESIGN:
+1) Each individual tile should include:
+    a) Status label
+    b) Large image
+    c) Tile title
+    d) Tile primary information value - located directly next to the tile title
+    e) Prominent CTA (Call To Action) Button
+    f) Bottom section for displaying any additional text information
+
+IMPLEMENTATION DETAILS:
+1) Build and integrate tiles into Bootstrap
+    a) Tiles should be within the same bootstrap container as a side-bar menu
+2) CSS media queries
+3) SCSS
+

@@ -1,0 +1,68 @@
+User-agent: Applebot
+Disallow: /images/
+Disallow: /style/
+Disallow: /fonts/
+Disallow: /js/
+
+User-agent: baiduspider
+Disallow: /images/
+Disallow: /style/
+Disallow: /fonts/
+Disallow: /js/
+
+User-agent: Bingbot
+Disallow: /images/
+Disallow: /style/
+Disallow: /fonts/
+Disallow: /js/
+
+User-agent: Googlebot
+Disallow: /images/
+Disallow: /style/
+Disallow: /fonts/
+Disallow: /js/
+
+User-agent: msnbot
+Disallow: /images/
+Disallow: /style/
+Disallow: /fonts/
+Disallow: /js/
+
+User-agent: Naverbot
+Disallow: /images/
+Disallow: /style/
+Disallow: /fonts/
+Disallow: /js/
+
+User-agent: seznambot
+Disallow: /images/
+Disallow: /style/
+Disallow: /fonts/
+Disallow: /js/
+
+User-agent: Slurp
+Disallow: /images/
+Disallow: /style/
+Disallow: /fonts/
+Disallow: /js/
+
+User-agent: teoma
+Disallow: /images/
+Disallow: /style/
+Disallow: /fonts/
+Disallow: /js/
+
+User-agent: Yandex
+Disallow: /images/
+Disallow: /style/
+Disallow: /fonts/
+Disallow: /js/
+
+User-agent: Yeti
+Disallow: /images/
+Disallow: /style/
+Disallow: /fonts/
+Disallow: /js/
+
+User-agent: *
+Disallow: /
