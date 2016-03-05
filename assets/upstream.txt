@@ -5,11 +5,11 @@ Author: jackrzhang
 PROBLEM DEFINITION:
 1) Create an intuitive and responsive tile design and layout.
 2) Potential uses for the tiles/this template include:
-    a) Online Store - each tile represents a featured item
-    b) Online Store - each tile represents a shopping cart item
-    c) Online Auction - each tile represents a user's current bid on an item
-    d) Game Progress - each tile represents a user's current progress on a game stage
-    e) Online Portfolio - tile information can be adjusted according to portfolio types
+    a) Online Auction - each tile represents a user's current bid on an item
+    b) Online Retail Store - each tile represents a featured item
+    c) Online Distributor Store - each tile represents a product
+    c) Game Progress - each tile represents a user's current progress on a game stage
+    d) Online Portfolio - tile information can be adjusted according to portfolio types
 
 TILE DESIGN:
 1) Each individual tile should include:
@@ -22,7 +22,10 @@ TILE DESIGN:
 
 PAGE LAYOUT:
 1) Responsive navbar at top
-
+2) Boostrap container holding page content:
+    a) Sidebar Menu
+    b) Page Title
+    b) Tiles Display
 
 IMPLEMENTATION DETAILS:
 1) Build and integrate tiles into Bootstrap

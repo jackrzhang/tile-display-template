@@ -61,7 +61,7 @@
     </nav>
 
     <!-- Page Content: Menu & Tiles -->
-    <div class="container my-items-container">
+    <div class="container tiles-container">
 
         <!-- Sidebar Menu -->
         <div class="col-sm-3">
@@ -79,23 +79,23 @@
 
             <h1 class="page-title">Tiles Display Title</h1>
 
-            <div class="item-tile-container col-xs-6 col-md-4">
-                <div class="thumbnail item-tile">
-                    <span class="item-status-label-blue">TILE STATUS</span>
+            <div class="tile-container col-xs-6 col-md-4">
+                <div class="thumbnail tile">
+                    <span class="tile-status-label-blue">TILE STATUS</span>
                     <img src="images/tile-image.png" alt="tile image">
-                    <div class="row item-top-info">
-                        <div class="col-xs-9 col-sm-8 item-title-container">
-                            <h4 class="item-title"><a href="#">Tile Title</a></h4>
+                    <div class="row tile-top-info">
+                        <div class="col-xs-9 col-sm-8 tile-title-container">
+                            <h4 class="tile-title"><a href="#">Tile Title</a></h4>
                         </div>
-                        <div class="col-xs-3 col-sm-4 leading-bid-container">
-                            <p class="leading-bid-label">Primary Info</p>
-                            <p class="leading-bid-amount">Value</p>
+                        <div class="col-xs-3 col-sm-4 tile-primary-info-container">
+                            <p class="primary-info-label">Primary Info</p>
+                            <p class="primary-info-amount">Value</p>
                         </div>                
                     </div>
-                    <div class="item-call-to-action">
-                        <button class="btn bg-blue">CALL TO ACTION</button>
+                    <div class="tile-call-to-action">
+                        <button class="btn btn-blue">CALL TO ACTION</button>
                     </div>
-                    <div class="item-bottom-info">
+                    <div class="tile-bottom-info">
                         <table>
                             <tr>
                                 <td><p class="info-key">Number Info:</p></td>
@@ -116,6 +116,172 @@
                         </table>
                     </div>
                 </div>  
+            </div>
+
+            <div class="tile-container col-xs-6 col-md-4">
+                <div class="thumbnail tile">
+                    <span class="tile-status-label-blue">BID STATUS</span>
+                    <img src="images/tile-image.png" alt="tile image">
+                    <div class="row tile-top-info">
+                        <div class="col-xs-9 col-sm-8 tile-title-container">
+                            <h4 class="tile-title"><a href="#">Auction Item</a></h4>
+                        </div>
+                        <div class="col-xs-3 col-sm-4 tile-primary-info-container">
+                            <p class="primary-info-label">Current Bid</p>
+                            <p class="primary-info-amount">$50.00</p>
+                        </div>                
+                    </div>
+                    <div class="tile-call-to-action">
+                        <button class="btn btn-blue">BID NOW</button>
+                    </div>
+                    <div class="tile-bottom-info">
+                        <table>
+                            <tr>
+                                <td><p class="info-key">My Bid:</p></td>
+                                <td><b class="info-value">$42.00</b></td>
+                            </tr>
+                            <tr>
+                                <td><p class="info-key">Time Left:</p></td>
+                                <td><b class="info-value">4d 13h 15m </b></td>
+                            </tr>  
+                            <tr>
+                                <td><p class="info-key">Seller:</p></td>
+                                <td><b class="info-value"><a href="#">Seller Name</b></td>
+                            </tr>
+                            <tr>
+                                <td><p class="info-key">Item Category:</p></td>
+                                <td><b class="info-value"><a href="#">Category Name</a></b></td>
+                            </tr>               
+                        </table>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="tile-container col-xs-6 col-md-4">
+                <div class="thumbnail tile">
+                    <span class="tile-status-label-blue">ITEM DISCOUNT</span>
+                    <img src="images/tile-image.png" alt="tile image">
+                    <div class="row tile-top-info">
+                        <div class="col-xs-9 col-sm-8 tile-title-container">
+                            <h4 class="tile-title"><a href="#">Retail Store Item</a></h4>
+                        </div>
+                        <div class="col-xs-3 col-sm-4 tile-primary-info-container">
+                            <p class="primary-info-label">Our Price</p>
+                            <p class="primary-info-amount">$19.99</p>
+                        </div>                
+                    </div>
+                    <div class="tile-call-to-action">
+                        <button class="btn btn-blue">PURCHASE NOW</button>
+                    </div>
+                    <div class="tile-bottom-info">
+                        <table>
+                            <tr>
+                                <td><p class="info-key">List Price:</p></td>
+                                <td><b class="info-value">$34.99</b></td>
+                            </tr>
+                            <tr>
+                                <td><p class="info-key">Shipping Time:</p></td>
+                                <td><b class="info-value">2 days</b></td>
+                            </tr>                   
+                            <tr>
+                                <td><p class="info-key">Review Rating:</p></td>
+                                <td><b class="info-value"><a href="#">
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </a></b></td>
+                            </tr>  
+                            <tr>
+                                <td><p class="info-key">Item Category:</p></td>
+                                <td><b class="info-value"><a href="#">Category Name</b></td>
+                            </tr>               
+                        </table>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="tile-container col-xs-6 col-md-4">
+                <div class="thumbnail tile">
+                    <span class="tile-status-label-blue">STOCK STATUS</span>
+                    <img src="images/tile-image.png" alt="tile image">
+                    <div class="row tile-top-info">
+                        <div class="col-xs-9 col-sm-8 tile-title-container">
+                            <h4 class="tile-title"><a href="#">Distributor Product</a></h4>
+                        </div>
+                        <div class="col-xs-3 col-sm-4 tile-primary-info-container">
+                            <p class="primary-info-label">Unit Price</p>
+                            <p class="primary-info-amount">$2.68</p>
+                        </div>                
+                    </div>
+                    <div class="tile-call-to-action">
+                        <button class="btn btn-blue">See Product Details</button>
+                    </div>
+                    <div class="tile-bottom-info">
+                        <table>
+                            <tr>
+                                <td><p class="info-key">In Stock:</p></td>
+                                <td><b class="info-value">5,024</b></td>
+                            </tr>
+                            <tr>
+                                <td><p class="info-key">Lead Time:</p></td>
+                                <td><b class="info-value">1 week</b></td>
+                            </tr>                   
+                            <tr>
+                                <td><p class="info-key">Manufacturer:</p></td>
+                                <td><b class="info-value"><a href="#">Manu. Name</a></b></td>
+                            </tr>  
+                            <tr>
+                                <td><p class="info-key">Item Category:</p></td>
+                                <td><b class="info-value"><a href="#">Category Name</b></td>
+                            </tr>               
+                        </table>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="tile-container col-xs-6 col-md-4">
+                <div class="thumbnail tile">
+                    <span class="tile-status-label-blue">LEVEL STATUS</span>
+                    <img src="images/tile-image.png" alt="tile image">
+                    <div class="row tile-top-info">
+                        <div class="col-xs-9 col-sm-8 tile-title-container">
+                            <h4 class="tile-title"><a href="#">Video Game Level</a></h4>
+                        </div>
+                        <div class="col-xs-3 col-sm-4 tile-primary-info-container">
+                            <p class="primary-info-label">Progress</p>
+                            <p class="primary-info-amount">60.2%</p>
+                        </div>                
+                    </div>
+                    <div class="tile-call-to-action">
+                        <button class="btn btn-blue">PLAY LEVEL</button>
+                    </div>
+                    <div class="tile-bottom-info">
+                        <table>
+                            <tr>
+                                <td><p class="info-key">Points Gained:</p></td>
+                                <td><b class="info-value">40,050</b></td>
+                            </tr>
+                            <tr>
+                                <td><p class="info-key">Total Play Time:</p></td>
+                                <td><b class="info-value">03:52:21</b></td>
+                            </tr>   
+                            <tr>
+                                <td><p class="info-key">Difficulty:</p></td>
+                                <td><b class="info-value"><a href="#">Medium</b></td>
+                            </tr>                
+                            <tr>
+                                <td><p class="info-key">Level World:</p></td>
+                                <td><b class="info-value"><a href="#">World Name</a></b></td>
+                            </tr>                                            
+                        </table>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="tile-container col-xs-6 col-md-4">
+                
             </div>
 
         </div>
