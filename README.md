@@ -1,5 +1,5 @@
 # tile-display-template
-An intuitive and responsive tile design and layout.
+An intuitive and responsive tile design and layout. See a live demo [here](http://tile-display-template.jackrzhang.com).
 
 ####Tile Design
 Each individual tile includes:
