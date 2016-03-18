@@ -4,19 +4,38 @@ h1.page-title {
   margin-bottom: 40px;
   border-bottom: 1px solid #dadcdd; }
 
+button:focus {
+  outline: none; }
+
 .btn {
   padding: 10px 19px;
   font-size: 17px;
   line-height: 1.471;
-  border-radius: 6px; }
+  border-radius: 6px;
+  border-style: none;
+  outline: none; }
+  .btn:active, .btn:hover, .btn:focus {
+    color: #fff;
+    outline: none !important; }
 
 .btn-blue {
   color: #fff;
   background-color: #308fe8; }
+  .btn-blue:active, .btn-blue:hover {
+    background-color: #1775ce; }
+
+* {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease; }
 
 body {
   font-family: 'Poppins', Helvetica, sans-serif;
   background-color: #f4f4f4; }
+
+a:hover, a:active, a:focus {
+  text-decoration: none; }
 
 .thumbnail.tile > .instructions {
   background-color: #f4f4f4;

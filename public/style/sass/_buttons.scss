@@ -1,11 +1,27 @@
+button:focus {
+    outline:none;
+}
+
 .btn {
     padding: 10px 19px;
     font-size: 17px;
     line-height: 1.471;
     border-radius: 6px;
+    border-style: none;
+    outline: none;
+
+    &:active, &:hover, &:focus {
+        color: #fff;
+        outline: none !important;
+    }
 }
 
 .btn-blue {
+    $blue: rgb(48, 143, 232);
     color: #fff;
-    background-color: rgb(48, 143, 232);
+    background-color: $blue;
+
+    &:active, &:hover {
+        background-color: darken($blue, 10%);
+    }
 }

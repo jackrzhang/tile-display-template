@@ -2,9 +2,20 @@
 @import 'buttons';
 @import url(https://fonts.googleapis.com/css?family=Poppins);
 
+* {
+  -webkit-transition: all 0.2s ease;
+  -moz-transition:    all 0.2s ease;
+  -ms-transition:     all 0.2s ease;
+  -o-transition:      all 0.2s ease;
+}
+
 body {
     font-family: 'Poppins', Helvetica, sans-serif;
     background-color: #f4f4f4;
+}
+
+a:hover, a:active, a:focus {
+    text-decoration: none;
 }
 
 .thumbnail.tile > .instructions {
