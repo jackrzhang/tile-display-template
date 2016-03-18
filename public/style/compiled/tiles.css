@@ -1,7 +1,7 @@
 .container.tiles-container {
   padding: 0;
   margin-top: 90px;
-  /* Resize leading bid label for extremely small devices */
+  /* Resize leading bid label and tile margins for extremely small devices */
   /* extra small (xs) devices that can fit two tiles */
   /* small (sm) devices */
   /* large (lg) devices */
@@ -10,7 +10,7 @@
     position: relative;
     padding: 0;
     margin: 0;
-    width: 95%; }
+    width: 100%; }
     .container.tiles-container .tile-container .thumbnail.tile {
       position: relative;
       padding: 0;

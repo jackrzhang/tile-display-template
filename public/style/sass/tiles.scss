@@ -6,7 +6,7 @@
         position: relative;
         padding: 0;
         margin: 0;
-        width: 95%;
+        width: 100%;
 
         .thumbnail.tile {
             position: relative;
@@ -93,7 +93,7 @@
         }
     }
 
-    /* Resize leading bid label for extremely small devices */
+    /* Resize leading bid label and tile margins for extremely small devices */
     @media (max-width: 345px) {
         .tile-container {
             .thumbnail.tile {
