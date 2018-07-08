@@ -1,7 +1,7 @@
 # tile-display-template
 An intuitive and responsive tile design and layout. See a live demo [here](http://tile-display-template.jackrzhang.com).
 
-####Tile Design
+#### Tile Design
 Each individual tile includes:
  - Status label
  - Large image
@@ -10,15 +10,14 @@ Each individual tile includes:
  - Prominent CTA (Call To Action) Button
  - Bottom section for displaying any additional text information
 
-####Potential Uses
+#### Potential Uses
 - Online Auctions
 - Online Retail Stores
 - Online Distributor Stores
 - Video Game Level Dashboards
 - Online Portfolios
 
----
-####tools
+#### Built with:
  - Bootstrap v3.3.6
  - CSS3 Media Queries
  - [Sass](http://sass-lang.com/)
